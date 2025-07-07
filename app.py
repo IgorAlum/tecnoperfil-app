@@ -1,3 +1,9 @@
+# streamlit_app.py
 import streamlit as st
-st.title("Tecnoperfil - Proposta Automática")
-st.write("Este é o app de geração automática de propostas técnicas e comerciais.")
+import pandas as pd
+from io import BytesIO
+from fpdf import FPDF
+
+# Configuração e interface do app
+st.set_page_config(page_title="Proposta Automática - Extrusão", layout="centered")
+# ... resto do código que já construímos ...
